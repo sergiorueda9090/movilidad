@@ -27,6 +27,8 @@
 /* Custom properties            */
 /* ---------------------------- */
 :root {
+  /*--primary-color: #1c3b6a;
+  --accent-color:#2d558f;*/
   --primary-color:#DF3B34;
   --secondary-color:#1E1F23;
   --text-color:#EEEEEE;
@@ -490,7 +492,7 @@ a:hover {
 /* Buttons                      */
 /* ---------------------------- */
 .btn-cta-primary {
-  background-color: var(--primary-color);
+  background-color: #1c3b6a;/*var(--primary-color);*/
   color: var(--text-color);
   border: none;
   padding: 13px 30px;
@@ -502,7 +504,7 @@ a:hover {
 }
 
 .btn-cta-primary:hover {
-  background-color: var(--accent-color) !important;
+  background-color: /*var(--accent-color)*/ #1c3b6a !important;
 }
 
 .btn-cta-secondary {
@@ -511,7 +513,7 @@ a:hover {
   border: none;
   padding: 13px 30px;
   font-size: 16px;
-  border: var(--primary-color) 1px solid;
+  border: /*var(--primary-color)*/ #1c3b6a 1px solid;
   border-radius: 10px;
   font-weight: 600;
   font-family: var(--font);
@@ -519,13 +521,13 @@ a:hover {
 }
 
 .btn-cta-secondary:hover {
-  background-color: var(--accent-color) !important;
+  background-color: /*var(--accent-color)*/ #1c3b6a !important;
   color: var(--text-color);
-  border: var(--accent-color) 1px solid;
+  border: /*var(--accent-color)*/ #1c3b6a 1px solid;
 }
 
 .btn-close {
-  border: 1px solid var(--primary-color);
+  border: 1px solid #1c3b6a /*var(--primary-color)*/;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFFFFF'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") !important;
   opacity: 1;
 }
@@ -1084,7 +1086,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     border-radius: 100px;
-    border: 1px solid var(--primary-color);
+    border: 1px solid #FFC100 /*var(--primary-color)*/;
     color: var(--heading-color);
     transition: .3s;
 }
