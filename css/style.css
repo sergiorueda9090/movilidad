@@ -29,7 +29,7 @@
 :root {
   /*--primary-color: #1c3b6a;
   --accent-color:#2d558f;*/
-  --primary-color:#DF3B34;
+  --primary-color:#FFC100;
   --secondary-color:#1E1F23;
   --text-color:#EEEEEE;
   --accent-color:#FF7B6E;
@@ -1548,4 +1548,26 @@ a.icon-contact:hover {
   .footer-logo-box {
     height: 80px;
   }
+}
+
+.whatsapp-floating {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp-icon {
+    width: 70px;   /* Ajusta el tamaño a tu gusto */
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    transition: transform .2s ease-in-out;
+}
+
+.whatsapp-icon:hover {
+    transform: scale(1.1);
 }
