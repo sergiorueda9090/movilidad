@@ -30,6 +30,7 @@
   /*--primary-color: #1c3b6a;
   --accent-color:#2d558f;*/
   --primary-color:#FFC100;
+  --soat-color: #1c3b6a;
   --secondary-color:#1E1F23;
   --text-color:#EEEEEE;
   --accent-color:#FF7B6E;
@@ -53,7 +54,7 @@ body {
 }
 
 .bg-primary-color {
-  background-color: var(--primary-color) !important;
+  background-color: var(--soat-color) !important;
 }
 
 .bg-secondary-color {
@@ -816,7 +817,7 @@ a:hover {
 }
 
 .why-box:hover .why-box-inner {
-  background-color: var(--primary-color);
+  background-color: var(--soat-color);
   color: var(--heading-color);
 }
 
