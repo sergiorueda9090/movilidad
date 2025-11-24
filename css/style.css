@@ -1551,23 +1551,29 @@ a.icon-contact:hover {
 }
 
 .whatsapp-floating {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    z-index: 9999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
 }
 
 .whatsapp-icon {
-    width: 70px;   /* Ajusta el tamaño a tu gusto */
-    height: 70px;
-    border-radius: 50%;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
-    transition: transform .2s ease-in-out;
+  width: 55px;     /* Puedes ajustar el tamaño */
+  height: auto;
+  cursor: pointer;
+
+  animation: floatWhatsapp 2.5s ease-in-out infinite;
 }
 
-.whatsapp-icon:hover {
-    transform: scale(1.1);
+/* Efecto flotando */
+@keyframes floatWhatsapp {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
